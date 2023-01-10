@@ -10,8 +10,8 @@ deployments:
     template: default
     helm_repository:
       create: false
-      name: mavenir
-      namespace: default
+      name: ananda-helm
+      namespace: flux-system
     clusters:
       dcflux:
         state: active
