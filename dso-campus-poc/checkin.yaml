@@ -13,7 +13,7 @@ deployments:
       name: mavenir
       namespace: default
     clusters:
-      bm6:
+      dcflux:
         state: active
         global_values: https://github.com/ananda5/planning.git/dso-campus-poc/values.yaml
         cnfs:
