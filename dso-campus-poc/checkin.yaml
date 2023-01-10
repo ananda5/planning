@@ -13,7 +13,7 @@ deployments:
       name: ananda-helm
       namespace: flux-system
     clusters:
-      fluxdc2:
+      dcflux:
         state: active
         global_values: https://github.com/ananda5/planning.git/dso-campus-poc/values.yaml
         cnfs:
