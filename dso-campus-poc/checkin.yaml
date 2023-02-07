@@ -10,7 +10,7 @@ deployments:
     template: default
     helm_repository:
       create: false
-      name: ananda-helm11
+      name: ananda-helm
       namespace: flux-system
     clusters:
       fluxdc:
