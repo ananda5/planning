@@ -11,7 +11,7 @@ deployments:
     helm_repository:
       create: false
       name: ananda-helm
-      namespace: flux-system
+      namespace: flux-syste
     clusters:
       fluxdc:
         state: active
