@@ -10,10 +10,9 @@ deployments:
     template: default
     helm_repository:
       create: true
-      name: ananda-helm
       namespace: flux-system
-      url: https://miku29.gitlab.io/helmrepo2/
-      secrets: secrets
+      url: https://ananda5.github.io/helmcharts/
+      secrets: helmchart-sarath
     clusters:
       fluxdc:
         state: active
