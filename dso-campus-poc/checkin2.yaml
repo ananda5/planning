@@ -10,6 +10,7 @@ deployments:
     template: default
     helm_repository:
       create: true
+      name: dssd
       namespace: flux-system
       url: https://ananda5.github.io/helmcharts/
       secrets: helmchart-sarath
