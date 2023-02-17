@@ -13,6 +13,7 @@ deployments:
       name: dssd
       namespace: flux-system
       url: https://ananda5.github.io/helmcharts/
+      secrets: null
     clusters:
       fluxdc:
         state: active
